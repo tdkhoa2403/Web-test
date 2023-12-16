@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    color: red;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.box-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.box-item .item {
+    width: 45%;
+    height: auto;
+}
+img {
+    width: 100%;
+    height: auto;
+}
